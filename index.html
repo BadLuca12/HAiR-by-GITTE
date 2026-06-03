@@ -63,87 +63,92 @@
 
     <div class="container">
         
+        <!-- 1. LEISTUNGEN -->
         <section id="angebot" class="section">
             <h2>Unsere Leistungen</h2>
-            <p>Bei HAiRbyGITTE stehen du und deine Haare im Mittelpunkt. Hier findest du eine Übersicht über unser vielfältiges Angebot[cite: 1, 2]:</p>
+            <p>Bei HAiRbyGITTE stehen du und deine Haare im Mittelpunkt. Hier findest du eine Übersicht über unser vielfältiges Angebot:</p>
             
             <h3>Damen</h3>
             <ul class="angebots-liste">
-                <li>Waschen-Föhnen [cite: 3, 4]</li>
-                <li>Modehaarschnitt (komplett) [cite: 5, 6]</li>
-                <li>Damenhaarschnitt (ohne Föhnen) [cite: 7, 8]</li>
-                <li>Pony Haarschnitt [cite: 9, 10]</li>
+                <li>Waschen-Föhnen</li>
+                <li>Modehaarschnitt (komplett)</li>
+                <li>Damenhaarschnitt (ohne Föhnen)</li>
+                <li>Pony Haarschnitt</li>
             </ul>
 
             <h3>Farbe</h3>
             <ul class="angebots-liste">
-                <li>Ansatz färben [cite: 11, 12]</li>
-                <li>Komplettfärben [cite: 13, 14]</li>
-                <li>Strähnen Oberkopf [cite: 15, 16]</li>
-                <li>Strähnen komplett [cite: 17, 18]</li>
-                <li>Tönung / Glossing [cite: 19, 20]</li>
-                <li>Intensivtönung [cite: 21, 22]</li>
+                <li>Ansatz färben</li>
+                <li>Komplettfärben</li>
+                <li>Strähnen Oberkopf</li>
+                <li>Strähnen komplett</li>
+                <li>Tönung / Glossing</li>
+                <li>Intensivtönung</li>
             </ul>
 
             <h3>Behandlung & Pflege</h3>
             <ul class="angebots-liste">
-                <li>Umformung [cite: 23, 24]</li>
-                <li>Behandlung Olaplex (Strukturaufbau) [cite: 25, 26]</li>
+                <li>Umformung</li>
+                <li>Behandlung Olaplex (Strukturaufbau)</li>
             </ul>
 
             <h3>Frisuren & Styling</h3>
             <ul class="angebots-liste">
-                <li>Waschen + Stylen [cite: 51, 52]</li>
-                <li>Steckfrisuren [cite: 29, 30]</li>
-                <li>Flechten [cite: 31, 32]</li>
+                <li>Waschen + Stylen</li>
+                <li>Steckfrisuren</li>
+                <li>Flechten</li>
             </ul>
 
             <h3>Kosmetik</h3>
             <ul class="angebots-liste">
-                <li>Augenbrauen färben [cite: 33, 34]</li>
-                <li>Augenbrauen zupfen / wachsen [cite: 35]</li>
-                <li>Wimpern färben [cite: 36, 37]</li>
+                <li>Augenbrauen färben</li>
+                <li>Augenbrauen zupfen / wachsen</li>
+                <li>Wimpern färben</li>
             </ul>
 
             <h3>Herren</h3>
             <ul class="angebots-liste">
-                <li>Haarschnitt [cite: 38, 39]</li>
-                <li>Waschen-Schneiden [cite: 40, 41]</li>
-                <li>Bartschneiden [cite: 42, 43]</li>
-                <li>Locken / Oberkopf [cite: 44, 45]</li>
+                <li>Haarschnitt</li>
+                <li>Waschen-Schneiden</li>
+                <li>Bartschneiden</li>
+                <li>Locken / Oberkopf</li>
             </ul>
 
             <h3>Kinder & Jugendliche</h3>
             <ul class="angebots-liste">
-                <li>Kinder (0 - 3 Jahre) [cite: 46, 47]</li>
-                <li>Kinder (4 - 12 Jahre) [cite: 48, 49]</li>
-                <li>Jugendliche (13 - 18 Jahre) [cite: 50]</li>
+                <li>Kinder (0 - 3 Jahre)</li>
+                <li>Kinder (4 - 12 Jahre)</li>
+                <li>Jugendliche (13 - 18 Jahre)</li>
             </ul>
 
             <h3>Zusatz</h3>
             <ul class="angebots-liste">
-                <li>Langhaarzuschlag [cite: 27, 28]</li>
+                <li>Langhaarzuschlag</li>
             </ul>
         </section>
 
+        <!-- 2. FOTOGALERIE BEREICH -->
         <section id="galerie-bereich" class="section">
             <h2>Einblick in den Salon</h2>
             <p>Klicke auf eine Kategorie, um die Bilder anzusehen und durchzublättern.</p>
             
             <div class="galerie">
                 
+                <!-- KATEGORIE 1: UNSER SALON -->
                 <div class="foto-box" onclick="openAlbum(['salon1.jpg', 'salon2.jpg'])">
                     <span class="album-badge">Album 📸</span>
                     <img src="salon1.jpg" alt="Unser Salon">
                     <div class="foto-titel">Unser Salon</div>
                 </div>
                 
+                <!-- KATEGORIE 2: KREATIVE STYLINGS -->
                 <div class="foto-box" onclick="openAlbum(['styling1.jpg', 'styling2.jpg'])">
                     <span class="album-badge">Album 📸</span>
                     <img src="styling1.jpg" alt="Kreative Stylings">
                     <div class="foto-titel">Kreative Stylings</div>
                 </div>
                 
+                <!-- KATEGORIE 3: VORHER / NACHHER -->
                 <div class="foto-box" onclick="openAlbum(['transformation1.jpg'])">
                     <span class="album-badge">Album 📸</span>
                     <img src="transformation1.jpg" alt="Vorher / Nachher Transformationen">
@@ -153,6 +158,7 @@
             </div>
         </section>
 
+        <!-- LIGHTBOX-ELEMENT MIT PFEILEN -->
         <div id="myLightbox" class="lightbox">
             <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
             <span class="lightbox-btn btn-prev" onclick="changeImage(-1)">❮</span>
@@ -160,6 +166,7 @@
             <span class="lightbox-btn btn-next" onclick="changeImage(1)">❯</span>
         </div>
 
+        <!-- 3. KONTAKT & INFO -->
         <section id="kontakt" class="section">
             <h2>Termin vereinbaren</h2>
             <p><strong>Adresse:</strong><br>HAiRbyGITTE<br>Brigitte Schneider<br>Rotach 1051, 6861 Alberschwende</p>
@@ -175,6 +182,7 @@
             <p><strong>WhatsApp:</strong><br><a href="https://wa.me/436642563244" target="_blank" class="btn-kontakt" style="background-color: #25D366; color: white;">💬 Nachricht schreiben</a></p>
         </section>
 
+        <!-- 4. RECHTLICHES -->
         <section id="impressum" class="section">
             <h2>Impressum & Datenschutz</h2>
             <h3>Impressum</h3>
